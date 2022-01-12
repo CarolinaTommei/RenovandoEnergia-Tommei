@@ -1,23 +1,21 @@
-import bolacristal from './bolacristal.png';
+
 import './App.css';
 import {MiModulo} from './MiModulo.js';
+import NavBar from './components/NavBar';
+
 
 function App() {
   return (
+    
     <div className="App">
+      
       <header className="App-header">
-        <img src={bolacristal} className="App-logo" alt="logo" />
-        <p>
-          Renovando Energías
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Inicio
-        </a>
+    
+        
+          <NavBar />
+          
+        
+      
       </header>
       <MiModulo/>
     </div>
