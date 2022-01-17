@@ -1,0 +1,15 @@
+.icono-carrito{
+
+    height: 10vmin;
+    margin:0;
+    
+}
+.Numerocarrito{
+    color: beige;
+
+}
+.Carrito{
+    
+    display: flex;		 
+    margin-right: 1em;
+};

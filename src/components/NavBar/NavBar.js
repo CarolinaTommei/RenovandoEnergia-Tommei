@@ -1,4 +1,6 @@
-import bolacristal from '../bolacristal.png';
+import bolacristal from '../../bolacristal.png';
+import CartWidget from '../CartWidget/CartWidget';
+
 
 import './NavBar.css';
 function NavBar(){
@@ -10,7 +12,7 @@ function NavBar(){
             <h1>Renovando Energía</h1>
 
         </div>
-        
+        <div className='Nav-seleccion'>
         <nav>
             <ul>
                 <li>Inicio</li>
@@ -19,6 +21,9 @@ function NavBar(){
                 <li>Aceites</li>
             </ul>
         </nav>
+        <CartWidget/>
+        </div>
+        
     </div>
     );
     

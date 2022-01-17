@@ -1,7 +1,9 @@
 
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
 import {MiModulo} from './MiModulo.js';
-import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+
 
 
 function App() {
@@ -12,12 +14,13 @@ function App() {
       <header className="App-header">
     
         
-          <NavBar />
+         <NavBar/>
           
         
       
       </header>
       <MiModulo/>
+      <ItemListContainer/>
     </div>
   );
 }

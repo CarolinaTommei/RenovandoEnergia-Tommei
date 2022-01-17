@@ -1,0 +1,11 @@
+
+.card{
+    border: 2px solid #AC6BC3;
+    width: 20em;
+    margin: 3em;
+   
+}
+.item{
+    display: flex;
+   justify-content: center;
+}
