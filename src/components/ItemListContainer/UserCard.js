@@ -1,3 +1,4 @@
+
 import "./UserCard.css";
 
 function UserCard({
@@ -9,11 +10,15 @@ function UserCard({
           <p>Nombre: {name}</p>
           <p>Información: {info}</p>
           <p>Variedades: {tipos}</p>
+
+          
           
           
         </div>
         
+        
       );
+      
   }
 
   export default UserCard;
