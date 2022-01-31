@@ -28,9 +28,7 @@ const agregar=()=>{
 return(
     <div>
         <div>
-        <h3>
-            Sahumerios:
-        </h3>
+       
         
             <button onClick={sumar}>+</button>            
             {counter}            

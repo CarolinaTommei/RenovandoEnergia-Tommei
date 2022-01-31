@@ -1,12 +1,13 @@
-
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import {MiModulo} from './MiModulo.js';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-
-
+import { Mostrar } from './components/ItemListContainer/ItemList';
 
 function App() {
+
+
+
   return (
     
     <div className="App">
@@ -20,9 +21,12 @@ function App() {
       
       </header>
       <MiModulo/>
-      <ItemListContainer/>
+      <Mostrar/>
+
+      
+
     </div>
   );
 }
 
-export default App;
+export default App
